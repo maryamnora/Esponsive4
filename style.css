@@ -49,3 +49,9 @@ color: #272142
     margin-top: 10px;
     }
 .col{padding: 20px 60px;}
+@media(max-width:690px){.col{text-align: center;
+padding:0px 10px;}
+.header h1{font-size: 45px;
+    line-height:1.4}
+.subject{ font-size: 44px;}
+}
