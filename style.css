@@ -32,10 +32,12 @@ font-size: 64px;
 font-weight: 700;}
 .content{    font-family: "Poppins", sans-serif;
 font-size: 16px;
-font-weight: normal;
+font-weight:500;
 line-height: 30px;
 opacity: 70%;
-color: #6c757d;}
+color: #272142
+;
+}
 .Learnmorebtn{  
     font-family: "Poppins", sans-serif;
     font-size: 16px;
@@ -46,3 +48,4 @@ color: #6c757d;}
     text-decoration: none;
     margin-top: 10px;
     }
+.col{padding: 20px 60px;}
