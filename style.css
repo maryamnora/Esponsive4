@@ -63,14 +63,17 @@ color: #272142
 .col-lg-6{text-align: center;
 }
 }
-.section-about h1
-{font-size: 64px;
-line-height: 80px;
-font-family: "Playfair Display", serif;}
-.section-about h2{font-size: 18px;
-font-family:"Poppins", sans-serif ;
-font-weight: 700;}
+.section-about h1{
+    font-size: 64px;
+    line-height: 80px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;}
+.section-about h2{
+    font-size: 18px;
+    font-family:"Poppins", sans-serif ;
+    font-weight: 700;}
 .section-about{
+
     padding: 130px 30px;}
 .projectsbtn{
     background-color: #6C63FF;
@@ -82,5 +85,17 @@ font-weight: 700;}
     font-family: "Poppins", sans-serif;
     font-weight: 500;
    }
+   .section-about h3{font-size:24px ;
+    font-family: "Poppins", sans-serif ;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 0}
+.section-about p{
+    font-family: "Poppins", sans-serif ;
+    font-weight: 700;
+    font-size: 14px;
+    opacity: 70%;
+   
+;}
    
  
