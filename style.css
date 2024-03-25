@@ -17,7 +17,10 @@ font-weight: 700;
         font-family: "Playfair Display", serif;
         font-weight: bold;
         }
-.button{
+h4{
+    font-size: 48px;
+}
+.button , .contactme{
 background-color: #6C63FF;
 color: white;
 text-decoration:none ;
@@ -26,7 +29,7 @@ padding: 18px 30px;
 font-size: 18px;
 font-family: "Poppins", sans-serif;
 font-weight: 500;
-margin: 100px;}
+margin: 100px 0;}
 .subject{font-family: "Playfair Display", serif;
 font-size: 64px;
 font-weight: 700;}
@@ -63,33 +66,94 @@ color: #272142
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
-nav a{text-decoration: none;
-color: #272142;
+nav a{
+    text-decoration: none;
+    color: #272142;
 }
-nav a:hover, nav li.active a{color: #6C63FF;
-transition: all 100ms ease-in-out;}
+nav a:hover, nav li.active a{
+    color: #6C63FF;
+    transition: all 100ms ease-in-out;
+}
 nav ul{
     padding: 0;
-    margin: 0;}
-.col-lg-6{
-    padding-bottom: 20px ;}
-
-@media(max-width:990px){
-.col{text-align: center;
-         padding:0px 10px;}
-.header h1{font-size: 45px;
-           line-height:1.4}
-.subject{ font-size: 44px;}
-.section-about h1{font-size: 45px;
-text-align: center; }
-.section-about h3{text-align: center;}
-.link{text-align: center;}
-.col-lg-6{text-align: center;
+    margin: 0;
 }
-.logo{max-width: 70px;
-max-height: 25px;
-margin-top: 8px;}
-nav a{font-size: 12px;}
+.col-lg-6{
+    padding-bottom:
+     20px ;
+    }
+footer{
+    margin: 30px 0;
+}
+footer .contact-box{
+    background-color: #F9F7FE;
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+footer .contact-box p{
+    margin: 0;
+    font-size: 18px;
+}
+footer .email-links{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-size: 24px;
+    opacity: 80%;
+    transition: all 150ms ease-in-out;
+}
+footer .email-links:hover{
+    color: #6C63FF;
+}
+footer .social-media a{
+    margin: 0 20px;
+    color: #6C63FF;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #F9F7FE;
+    border-radius: 50%;
+    transition: all 150ms ease-in-out;
+}
+footer .social-media a:hover{
+   color: white;
+   background-color: #6C63FF;}
+@media(max-width:990px){
+.col{
+    text-align: center;
+    padding:0px 10px;
+}
+.header h1{
+    font-size: 45px;
+    line-height:1.4
+}
+.subject{ 
+    font-size: 44px;
+}
+.section-about h1{
+    font-size: 45px;
+    text-align: center; 
+}
+.section-about h3{
+    text-align: center;
+}
+.link{
+    text-align: center;
+}
+.col-lg-6{
+    text-align: center;
+}
+.logo{
+    max-width: 70px;
+    max-height: 25px;
+    margin-top: 8px;
+}
+nav a{
+    font-size: 12px;
+}
+h4{
+    font-size: 26px;
+}
+
 }
 .section-about h1{
     font-size: 64px;
